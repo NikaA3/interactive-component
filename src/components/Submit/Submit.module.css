@@ -1,0 +1,39 @@
+.submit {
+  width: 279px;
+  height: 45px;
+  border-radius: 22.5px;
+  color: #fff;
+  background-color: #fc7614;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1.87px;
+  line-height: 1.87px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submit:hover {
+  background-color: #fff;
+  color: #fc7614;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .submit {
+    width: 341px;
+    height: 45px;
+    border-radius: 22.5px;
+    color: #fff;
+    background-color: #fc7614;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 1.89px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
